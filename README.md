@@ -262,7 +262,7 @@ Follow these steps to set up the project environment:
 
 2. **Publish Dashboards:**
    - Publish your Power BI reports to the Power BI service for sharing with stakeholders.
-   ![](powerbi_dashboard/TikTok_Dashboard.pdf)
+   [View Power bi Dashboard](powerbi_dashboard/TikTok_Dashboard.pdf)
 
 
 
