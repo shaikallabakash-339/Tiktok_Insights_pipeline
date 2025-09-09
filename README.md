@@ -235,6 +235,11 @@ Follow these steps to set up the project environment:
 
 1. **Create Synapse Workspace:**
    - In the Azure Portal, create an **Azure Synapse Analytics** workspace.
+   ![](images/22-create_synapse_workspace_with_basics.png)
+   - once the deployment completed. launch the synapse studio.
+   - Navigate to **Data tab** in left side menu in Synapse Studio. Create a  **Serverless SQL Pool** as Shown.
+   ![](images/26_create_synapse_serverless_sql_database.png)
+   -upon the creation of SQL Pool. We need setup 
    - Set up necessary SQL pools.
 
 2. **Ingest Data:**
