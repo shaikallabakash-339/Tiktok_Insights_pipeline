@@ -129,7 +129,7 @@ Follow these steps to set up the project environment:
      - `bronze`
      - `silver`
      - `gold`
-       ![Create a Storage Containers in Adls](images/7_create_3 containers_in adls gen2 .png)
+       ![Create a Storage Containers in Adls](images/7_create3containerimages.png)
 
 ### 3. Configure Linked Services in Azure Data Factory
 
@@ -262,7 +262,7 @@ Follow these steps to set up the project environment:
 
 2. **Publish Dashboards:**
    - Publish your Power BI reports to the Power BI service for sharing with stakeholders.
-   [View Power bi Dashboard](powerbi_dashboard/TikTok_Dashboard.pdf)
+   [View Power bi Dashboard](powerbi_dashboard/tiktok_dashboard_in_powerbi.png)
 
 
 
