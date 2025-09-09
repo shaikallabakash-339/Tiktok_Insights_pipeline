@@ -245,24 +245,24 @@ Follow these steps to set up the project environment:
    ![](images/24_created_add_role_assignment_synpase_workspace.png)
    - add another **role assignment** with user for your default gmail account.
    ![](images/25_add_role_assignment_user_identity.png)
-   - once all requirement completed. start your Scripts to Create a External Table and Views on top of Synapse.
-   - Refer this [](synapse_sql) for creating a Credentials to access from adls, views and External Tables.
+  
 
 2. **Ingest Data:**
    - Load transformed data from the `silver` layer into Synapse.
    - Navigate to **Develp** tab & create a new sql script. 
-   - start your Scripts to Create a External Table and Views on top of Synapse.Refer this !["sql_files"](synapse_sql/) for creating a Credentials to access from adls, views and External Tables.
+   - start your Scripts to Create a External Table and Views on top of Synapse.Refer this !["synapse SQL Scripts"](synapse_sql/) for creating a Credentials to access from adls, views and External Tables.
    - Create necessary tables and views for analysis.
 
 ### 8. Integrate with Power BI
 
 1. **Connect Synapse to Power BI:**
    - Open **Power BI Desktop**.
-   - Connect to **Azure Synapse Analytics**.
+   - Click on **Get Data** tab. Search for **Synapse Analytics**. Copy paste your Synapase endpoint URL in the Synapse Workspace. Enter the Your Synapse user name & passwords.
    - Import data and create interactive dashboards.
 
 2. **Publish Dashboards:**
    - Publish your Power BI reports to the Power BI service for sharing with stakeholders.
+   ![](powerbi_dashboard/TikTok_Dashboard.pdf)
 
 
 
