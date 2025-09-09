@@ -239,11 +239,19 @@ Follow these steps to set up the project environment:
    - once the deployment completed. launch the synapse studio.
    - Navigate to **Data tab** in left side menu in Synapse Studio. Create a  **Serverless SQL Pool** as Shown.
    ![](images/26_create_synapse_serverless_sql_database.png)
-   -upon the creation of SQL Pool. We need setup 
-   - Set up necessary SQL pools.
+   - upon the creation of SQL Pool. We need setup Storage Account with Synapse. Navigate to Storage 
+   Account IAM role assinment. 
+   - Add a **role assignment** with Manage Identity of Synpase Workspace
+   ![](images/24_created_add_role_assignment_synpase_workspace.png)
+   - add another **role assignment** with user for your default gmail account.
+   ![](images/25_add_role_assignment_user_identity.png)
+   - once all requirement completed. start your Scripts to Create a External Table and Views on top of Synapse.
+   - Refer this [](synapse_sql) for creating a Credentials to access from adls, views and External Tables.
 
 2. **Ingest Data:**
-   - Load transformed data from the `gold` layer into Synapse.
+   - Load transformed data from the `silver` layer into Synapse.
+   - Navigate to **Develp** tab & create a new sql script. 
+   - start your Scripts to Create a External Table and Views on top of Synapse.Refer this !["sql_files"](synapse_sql/) for creating a Credentials to access from adls, views and External Tables.
    - Create necessary tables and views for analysis.
 
 ### 8. Integrate with Power BI
